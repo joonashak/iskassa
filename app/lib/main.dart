@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:iskassa/_widgets/transaction_table.dart';
 
 void main() {
   runApp(const MyApp());
@@ -102,6 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            const TransactionTable(),
           ],
         ),
       ),
